@@ -59,6 +59,9 @@
 		5641274C2038F62F000B54D0 = {
 			isa = PBXGroup;
 			children = (
+				564127782038F650000B54D0 /* Model */,
+				5641277A2038F666000B54D0 /* Controller */,
+				564127792038F65C000B54D0 /* View */,
 				564127572038F630000B54D0 /* TacoPOP */,
 				5641276C2038F630000B54D0 /* TacoPOPTests */,
 				564127562038F630000B54D0 /* Products */,
@@ -78,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				564127582038F630000B54D0 /* AppDelegate.swift */,
-				5641275A2038F630000B54D0 /* ViewController.swift */,
-				5641275C2038F630000B54D0 /* Main.storyboard */,
 				5641275F2038F630000B54D0 /* Assets.xcassets */,
 				564127612038F630000B54D0 /* LaunchScreen.storyboard */,
 				564127642038F630000B54D0 /* Info.plist */,
@@ -94,6 +95,29 @@
 				5641276F2038F630000B54D0 /* Info.plist */,
 			);
 			path = TacoPOPTests;
+			sourceTree = "<group>";
+		};
+		564127782038F650000B54D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		564127792038F65C000B54D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5641275C2038F630000B54D0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5641277A2038F666000B54D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5641275A2038F630000B54D0 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
