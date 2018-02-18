@@ -36,10 +36,25 @@
                                     <constraint firstAttribute="bottom" secondItem="Pvb-AJ-eJv" secondAttribute="bottom" constant="18" id="rM4-0t-f0x"/>
                                 </constraints>
                             </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="EMA-ZR-9pa">
+                                <rect key="frame" x="0.0" y="100" width="375" height="547"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="if3-TQ-Xvf">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="EMA-ZR-9pa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4K8-eH-Ubs"/>
+                            <constraint firstItem="EMA-ZR-9pa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4nx-lQ-1ej"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EMA-ZR-9pa" secondAttribute="bottom" constant="20" id="CP2-gA-eXi"/>
                             <constraint firstItem="zCZ-h2-5rq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="caX-j2-Ekr"/>
+                            <constraint firstItem="EMA-ZR-9pa" firstAttribute="top" secondItem="zCZ-h2-5rq" secondAttribute="bottom" constant="20" id="fvQ-FQ-PHR"/>
                             <constraint firstItem="zCZ-h2-5rq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ixW-AB-vSo"/>
                             <constraint firstItem="zCZ-h2-5rq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zo2-ax-8Cg"/>
                         </constraints>
