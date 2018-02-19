@@ -19,6 +19,12 @@ class MainVC: UIViewController, DataServiceDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ds.delegate = self//for delegate protocol we defined
+        ds.loadDeliciousTacoData()//call this to actually load the data
+        
+        collectionView.delegate = self//setting delegate
+        collectionView.dataSource = self//setting datasource
 
         headerView.addDropShadow()
     }

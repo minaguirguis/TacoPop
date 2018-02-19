@@ -61,6 +61,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="collectionView" destination="EMA-ZR-9pa" id="7yC-CQ-Fwi"/>
                         <outlet property="headerView" destination="zCZ-h2-5rq" id="mCG-gG-8Kf"/>
                     </connections>
                 </viewController>
